@@ -81,6 +81,29 @@ $ cordova plugin add cordova-plugin-x-socialsharing
 $ cordova prepare
 ```
 
+or into a native project:
+
+### Android
+
+```groovy
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+      compile('com.github.mfdeveloper:SocialSharing-PhoneGap-Plugin:5.3.2') {
+        exclude module: 'cordova-library'
+    }
+}
+```
+
+### IOS
+
+```ruby
+pod 'cordova-plugin-x-socialsharing', '~> 5.3.2'
+```
+
 SocialSharing.js is brought in automatically. There is no need to change or add anything in your html.
 
 ### Manually
