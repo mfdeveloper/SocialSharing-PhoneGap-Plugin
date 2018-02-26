@@ -92,7 +92,7 @@ repositories {
 }
 
 dependencies {
-      compile('com.github.mfdeveloper:SocialSharing-PhoneGap-Plugin:5.3.3') {
+      compile('com.github.mfdeveloper:SocialSharing-PhoneGap-Plugin:5.3.4') {
         exclude module: 'cordova-library'
     }
 }

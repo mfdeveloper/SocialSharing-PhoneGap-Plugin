@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "cordova-plugin-x-socialsharing"
-  s.version      = "5.3.2"
+  s.version      = "5.3.4"
   s.summary      = "PhoneGap / Cordova Social Sharing plugin."
 
   # This description is used to generate tags and improve search results.
@@ -134,6 +134,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency "Cordova", "~> 4.5"
+  s.dependency "Cordova", ">= 4.3.0"
 
 end
