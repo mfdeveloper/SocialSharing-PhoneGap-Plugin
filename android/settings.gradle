@@ -1,1 +1,1 @@
-include ':app', ':lib', ':cordova-library'
+include ':app', ':lib'
